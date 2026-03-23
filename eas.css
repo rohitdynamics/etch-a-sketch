@@ -45,11 +45,12 @@ header {
     gap: 40px;
     border-radius: 30px;
     padding: 20px;
+    box-shadow: 10px 12px 0px rgba(44, 44, 44, 0.3);
 }
 
 #artboard {
-    background-color: yellow;
-    /* border-radius: 20px; */
+    background-color: white;
+    border-radius: 20px;
     width: 100%;
     aspect-ratio: 1/1;
     display: flex;
@@ -78,6 +79,7 @@ header {
     box-shadow: 6px 8px 0px rgba(90, 0, 0, 0.3);
     color: red;
     font-weight: 600;
+    background-color: yellow;
 }
 
 #buttons > form {
