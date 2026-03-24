@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid green;
+    /* outline: 1px solid green; */
     margin: 0px;
     padding: 0px;
 }
@@ -17,6 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: yellow;
 }
 
 header {
@@ -45,7 +46,7 @@ header {
     gap: 40px;
     border-radius: 30px;
     padding: 20px;
-    box-shadow: 10px 12px 0px rgba(44, 44, 44, 0.3);
+    box-shadow: 10px 12px 0px rgba(78, 78, 0, 0.774);
 }
 
 #artboard {
@@ -75,11 +76,9 @@ header {
     border-radius: 100px;
     border: none;
     width: 120px;
-    font-family: 'neon', sans-serif;
     box-shadow: 6px 8px 0px rgba(90, 0, 0, 0.3);
     color: red;
     font-weight: 600;
-    background-color: yellow;
 }
 
 #buttons > form {
